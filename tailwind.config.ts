@@ -61,7 +61,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				creative: {
+					purple: 'hsl(var(--creative-purple))',
+					'purple-light': 'hsl(var(--creative-purple-light))',
+					'purple-dark': 'hsl(var(--creative-purple-dark))'
 				}
+			},
+			backgroundImage: {
+				'creative-gradient': 'var(--creative-gradient)',
+				'creative-gradient-light': 'var(--creative-gradient-light)'
+			},
+			boxShadow: {
+				'creative': 'var(--shadow-creative)',
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
